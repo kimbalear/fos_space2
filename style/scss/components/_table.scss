@@ -2,7 +2,7 @@
     thead {
         tr{
             th{
-                background-color: #F3EFF5;
+                background-color: $body-bg;
                 border: none;
             }
             td{
@@ -11,7 +11,7 @@
         }
     }
     tbody{
-        background-color: #F3EFF5;
+        background-color: $body-bg;
         tr{
             th{
                 border: none;

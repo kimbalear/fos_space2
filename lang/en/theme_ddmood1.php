@@ -1,7 +1,7 @@
 <?php
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Landing page';
+$string['pluginname'] = 'childtheme 1';
 
 $string['showlogintext'] = 'Display login text';
 $string['showlogintext_desc'] = 'Show or hide the additional login page text';

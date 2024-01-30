@@ -13,13 +13,13 @@
     color: $FOS-Flint;
 
     &.active {
-      border-bottom-color: $FOS-Aubergine;
+      border-bottom-color: $primary;
       &:hover {
-        border-bottom-color: $FOS-Aubergine;
+        border-bottom-color: $primary;
       }
     }
     &:hover {
-      border-bottom-color: $FOS-Aubergine;
+      border-bottom-color: $primary;
     }
   }
 }

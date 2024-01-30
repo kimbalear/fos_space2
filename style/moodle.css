@@ -81,39 +81,39 @@
 }
 h1 {
   font-family: "Isidora Sans Black", sans-serif;
-  color: #5c3873 !important;
+  color: #60ad8f !important;
   font-size: 1.6rem !important;
 }
 
 h2 {
   font-family: "Isidora Sans Black", sans-serif;
-  color: #5c3873 !important;
+  color: #60ad8f !important;
   font-size: 1.2rem !important;
 }
 
 h3 {
   font-family: "Isidora Sans Black", sans-serif;
-  color: #5c3873 !important;
+  color: #60ad8f !important;
 }
 
 h4 {
   font-family: "Isidora Sans Black", sans-serif;
-  color: #5c3873 !important;
+  color: #60ad8f !important;
 }
 
 h5 {
   font-family: "Isidora Sans Black", sans-serif;
-  color: #5c3873 !important;
+  color: #60ad8f !important;
 }
 
-.ddmood-footer {
+.ddmood1-footer {
   width: 100%;
   color: #f9f2ea;
   background-color: #383d47;
   padding: 30px 20px;
   font-size: small;
 }
-.ddmood-footer .grid-footer {
+.ddmood1-footer .grid-footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
@@ -123,7 +123,7 @@ h5 {
   align-items: center;
   grid-template-areas: "footer_top" "footer_bottom";
 }
-.ddmood-footer .grid-footer .footer_top {
+.ddmood1-footer .grid-footer .footer_top {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto;
@@ -133,14 +133,14 @@ h5 {
   align-self: stretch;
   grid-area: footer_top;
 }
-.ddmood-footer .grid-footer .footer_top .logo_footer {
+.ddmood1-footer .grid-footer .footer_top .logo_footer {
   grid-area: logo_footer;
 }
-.ddmood-footer .grid-footer .footer_top .menu_footer {
+.ddmood1-footer .grid-footer .footer_top .menu_footer {
   grid-area: menu_footer;
   align-self: center;
 }
-.ddmood-footer .grid-footer .footer_bottom {
+.ddmood1-footer .grid-footer .footer_bottom {
   align-self: stretch;
   grid-area: footer_bottom;
 }
@@ -150,7 +150,7 @@ h5 {
   padding-bottom: 0;
   box-shadow: none;
   border-bottom: var(--fos-flint-70, rgba(56, 61, 71, 0.7)) 1px solid;
-  background-color: #DDD3E1 !important;
+  background-color: #dbfcef !important;
   align-items: stretch;
   height: 61px;
 }
@@ -159,34 +159,34 @@ h5 {
   color: #383d47;
 }
 .moremenu .nav-link.active {
-  border-bottom-color: #5c3873;
+  border-bottom-color: #60ad8f;
 }
 .moremenu .nav-link.active:hover {
-  border-bottom-color: #5c3873;
+  border-bottom-color: #60ad8f;
 }
 .moremenu .nav-link:hover {
-  border-bottom-color: #5c3873;
+  border-bottom-color: #60ad8f;
 }
 
 .secondary-navigation {
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 .secondary-navigation .moremenu {
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 .secondary-navigation .moremenu .nav-tabs {
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 
 .generaltable thead tr th {
-  background-color: #F3EFF5;
+  background-color: #fafffd;
   border: none;
 }
 .generaltable thead tr td {
   border: none;
 }
 .generaltable tbody {
-  background-color: #F3EFF5;
+  background-color: #fafffd;
 }
 .generaltable tbody tr th {
   border: none;
@@ -201,9 +201,9 @@ h5 {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #f3eff5;
+  background-color: #fafffd;
   background-clip: border-box;
-  border: 0.5px solid #f3eff5;
+  border: 0.5px solid #fafffd;
 }
 .card > hr {
   margin-right: 0;
@@ -227,8 +227,8 @@ h5 {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
-  color: #5c3873;
-  background-color: #f3eff5;
+  color: #60ad8f;
+  background-color: #fafffd;
 }
 
 .card-subtitle {
@@ -242,13 +242,13 @@ h5 {
 .card-header {
   margin-bottom: 0;
   color: #383d47;
-  background-color: #f3eff5 !important;
-  border-bottom: 0.5px solid #f3eff5;
+  background-color: #fafffd !important;
+  border-bottom: 0.5px solid #fafffd;
 }
 .card-footer {
   color: #383d47;
   background-color: #fff !important;
-  border-top: 0.5px solid #f3eff5;
+  border-top: 0.5px solid #fafffd;
 }
 .card-header-tabs {
   border-bottom: 0;
@@ -270,7 +270,7 @@ h5 {
 }
 
 .card-deck {
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 .card-deck .card {
   background-color: #fff;
@@ -364,7 +364,7 @@ h5 {
 /* core.less */
 #region-main {
   overflow-y: visible;
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 
 /*
@@ -461,8 +461,8 @@ a:not([class]):focus,
 .activityinstance > a:focus {
   outline: 0.2rem solid transparent;
   color: #212529;
-  background-color: #d8c7e3;
-  box-shadow: 0 -0.2rem #d8c7e3, 0 0.2rem #343a40;
+  background-color: white;
+  box-shadow: 0 -0.2rem white, 0 0.2rem #343a40;
 }
 .aalink:focus:hover, a.autolink:focus:hover,
 #page-footer a:not([class]):focus:hover,
@@ -1575,7 +1575,7 @@ audio.mediaplugin_html5audio {
   padding: 0.5rem;
 }
 .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-bd body {
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 
 .moodle-dialogue-base .moodle-dialogue-fullscreen .moodle-dialogue-content {
@@ -2391,7 +2391,7 @@ h3.sectionname .inplaceeditable.inplaceeditingon .editinstructions {
 }
 #region-flat-nav .nav {
   margin-right: 15px;
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 
 .footer-dark a {
@@ -2402,7 +2402,7 @@ h3.sectionname .inplaceeditable.inplaceeditingon .editinstructions {
   color: #fff;
 }
 .footer-dark a:focus .icon {
-  color: #f3eff5;
+  color: #fafffd;
 }
 
 .btn-footer-popover {
@@ -2425,11 +2425,11 @@ h3.sectionname .inplaceeditable.inplaceeditingon .editinstructions {
   padding: 0;
 }
 .popover.footer .popover-body .footer-section a {
-  color: #f3eff5;
+  color: #fafffd;
   text-decoration: underline;
 }
 .popover.footer .popover-body .footer-section a .icon {
-  color: #f3eff5;
+  color: #fafffd;
 }
 .popover.footer .popover-body .footer-section a:focus {
   text-decoration: none;
@@ -2631,8 +2631,8 @@ input[disabled] {
 }
 
 .matchtext {
-  background-color: #c1a4d3;
-  color: #f3eff5;
+  background-color: #e7f2ee;
+  color: #fafffd;
   height: 1.5rem;
 }
 
@@ -2676,7 +2676,7 @@ input[disabled] {
   border-bottom: 2px solid transparent;
 }
 .emoji-picker .category-button.selected {
-  border-bottom: 2px solid #5c3873;
+  border-bottom: 2px solid #60ad8f;
 }
 .emoji-picker .emojis-container,
 .emoji-picker .search-results-container {
@@ -2798,7 +2798,7 @@ input[disabled] {
 
 .visual-scroll-x {
   scrollbar-width: thin;
-  scrollbar-color: #5c3873 #c1a4d3;
+  scrollbar-color: #60ad8f #e7f2ee;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 .visual-scroll-x::-webkit-scrollbar {
@@ -2807,11 +2807,11 @@ input[disabled] {
   appearance: none;
 }
 .visual-scroll-x::-webkit-scrollbar-thumb {
-  background-color: #5c3873;
+  background-color: #60ad8f;
   border-right: 1px solid #fff;
 }
 .visual-scroll-x::-webkit-scrollbar-track {
-  background-color: #c1a4d3;
+  background-color: #e7f2ee;
   border-right: 1px solid #fff;
 }
 
@@ -2842,7 +2842,7 @@ body.dragging .dragging {
 }
 
 .overlay-preview {
-  border: 2px dashed #5c3873;
+  border: 2px dashed #60ad8f;
   position: absolute;
   top: 0;
   left: 0;
@@ -2862,14 +2862,14 @@ body.dragging .dragging {
   margin: 0 auto;
   width: 100%;
   max-width: 600px;
-  background-color: #5c3873;
+  background-color: #60ad8f;
   color: #fff;
   text-align: center;
   font-size: 1.25rem;
 }
 
 .overlay-preview-borders {
-  outline: 2px dashed #5c3873;
+  outline: 2px dashed #60ad8f;
 }
 
 .waitstate {
@@ -3061,7 +3061,7 @@ blockquote {
 
 .block .block-controls .dropdown-toggle {
   /* So that the caret takes the colour of the icon. */
-  color: #f3eff5;
+  color: #fafffd;
 }
 
 [data-region=blocks-column] {
@@ -3190,7 +3190,7 @@ aside[id^=block-region-side-] .block_recentlyaccesseditems .dashboard-card-deck 
   display: none;
 }
 .block_recentlyaccesseditems a.dashboard-card small {
-  color: #f3eff5;
+  color: #fafffd;
 }
 
 .block_myoverview .content {
@@ -4341,11 +4341,11 @@ a.ygtvspacer:hover {
 }
 
 .layout.fullscreen {
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 
 #page.drawers .main-inner {
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 
 .drawer-toggles .drawer-toggler .btn {
@@ -4356,7 +4356,7 @@ a.ygtvspacer:hover {
 }
 .coursesearchbox {
   padding: 0.5rem;
-  border: 1px solid #5c3873;
+  border: 1px solid #60ad8f;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
 }
@@ -4398,13 +4398,13 @@ a.ygtvspacer:hover {
 }
 
 .btn-primary {
-  background-color: #5c3873;
-  border: 1px solid #f3eff5;
+  background-color: #60ad8f;
+  border: 1px solid #fafffd;
 }
 .btn-primary:hover {
-  background-color: #f3eff5;
-  color: #5c3873;
-  border-color: #5c3873;
+  background-color: #fafffd;
+  color: #60ad8f;
+  border-color: #60ad8f;
 }
 
 a {
@@ -4412,28 +4412,29 @@ a {
 }
 
 a.hover {
-  color: #5c3873;
+  color: #60ad8f;
 }
 
 .calendartable {
-  color: #5c3873;
+  color: #60ad8f;
 }
 
 .form-control {
-  border-color: #5c3873;
+  border-color: #60ad8f;
 }
 
 .search-icon {
-  border: 1px solid #5c3873;
+  border: 1px solid #60ad8f;
 }
 
 .btn-outline-secondary {
-  color: #f3eff5;
-  background-color: #5c3873;
+  color: #fafffd;
+  background-color: #60ad8f;
+  border-color: #60ad8f;
 }
 
 .pair-key {
-  color: #5c3873;
+  color: #60ad8f;
 }
 
 table {
@@ -4441,34 +4442,33 @@ table {
 }
 
 .custom-select {
-  border-color: #5c3873;
+  border-color: #60ad8f;
 }
 
 .input-group-append .btn-submit {
-  border: 1px solid #5c3873;
+  border: 1px solid #60ad8f;
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: #5c3873;
+  background-color: #60ad8f;
 }
 .dropdown-menu .dropdown-item.active {
-  background-color: #5c3873;
+  background-color: #60ad8f;
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-  background-color: #5c3873;
-  border: 1px solid #5c3873;
+  background-color: #60ad8f;
+  border: 1px solid #60ad8f;
 }
 .btn-primary.disabled:hover,
 .btn-primary:disabled:hover {
-  background-color: #dc3545;
   color: #fff;
   border-color: #000;
 }
 
 .alert-warning {
-  background-color: #ddd3e1 !important;
+  background-color: #fafffd !important;
 }
 
 .alert-warning,
@@ -4481,53 +4481,53 @@ table {
 }
 
 .drawer-right {
-  background-color: #f3eff5;
-  border-left: 1px solid #ddd3e1;
+  background-color: #fafffd;
+  border-left: 1px solid #60ad8f;
 }
 .drawer-right .card-body {
-  background-color: #f3eff5;
+  background-color: #fafffd;
   border: none;
 }
 
 .drawer-left {
-  background-color: #f3eff5;
-  border-right: 1px solid #ddd3e1;
+  background-color: #fafffd;
+  border-right: 1px solid #60ad8f;
 }
 
 .courseindex .courseindex-section .pageitem {
-  background-color: #5c3873;
+  background-color: #60ad8f;
 }
 .courseindex .courseindex-section .pageitem:hover {
-  background-color: #ddd3e1;
+  background-color: #fafffd;
 }
 .courseindex .courseindex-section .pageitem:hover a {
-  color: #5c3873 !important;
+  color: #60ad8f !important;
 }
 .courseindex .courseindex-section .courseindex-item-content .pageitem {
-  background-color: #5c3873;
+  background-color: #60ad8f;
 }
 .courseindex .courseindex-section .courseindex-item-content .pageitem:hover {
-  background-color: #ddd3e1;
+  background-color: #fafffd;
 }
 .courseindex .courseindex-section .courseindex-item-content .pageitem:hover a {
-  color: #5c3873 !important;
+  color: #60ad8f !important;
 }
 
 body {
   font-family: "Isidora Sans Regular", sans-serif;
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 body #page-wrapper #page {
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 body #page-wrapper #page #page-content {
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 body #page-wrapper #page .main-inner {
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 body #page-wrapper #page #region-main {
-  background-color: #f3eff5;
+  background-color: #fafffd;
 }
 
 .popover.footer .popover-body {
@@ -4567,7 +4567,7 @@ body #page-wrapper #page #region-main {
 .navbar-brand::after {
   content: "";
   display: block;
-  background-image: url("http://foselearning.knowtechture.com/theme/ddmood/pix/FOSlogo.png") !important;
+  background-image: url("http://localhost/theme/ddmood1/pix/hands.png") !important;
   background-size: contain;
   background-repeat: no-repeat;
   width: 44px;

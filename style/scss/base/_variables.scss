@@ -66,7 +66,7 @@ $colors: map-merge(
 
 // FOS variables
 $FOS-Aubergine: #5c3873 !default;
-$navbar-bg: #DDD3E1;
+$navbar-bg: #dbfcef;
 $FOS-Aubergine-bk: #f3eff5 !default;
 $FOS-Aubergine-Linear: var(
   --FOS-Aubergine-Linear,
@@ -74,12 +74,14 @@ $FOS-Aubergine-Linear: var(
   linear-gradient(180deg, #4d2a63 0%, #2b0842 100%)
 ) !default;
 $FOS-Coral: #f06043 !default;
+$FOS-Coral-bk: #f7ded9 !default;
 $FOS-Coral-Linear: var(
   --FOS-Coral-Linear,
   linear-gradient(317deg, rgba(0, 0, 0, 0.2) 22.05%, rgba(0, 0, 0, 0) 82.24%),
   linear-gradient(180deg, #db5938 0%, #b03a1c 100%)
 ) !default;
 $FOS-Caribbean-Green: #60ad8f !default;
+$FOS-Caribbean-Green-bk: #fafffd !default;
 $FOS-Caribbean-Green-Linear: var(
   --FOS-Caribbean-Green-Linear,
   linear-gradient(317deg, rgba(0, 0, 0, 0.2) 22.05%, rgba(0, 0, 0, 0) 82.24%),
@@ -94,7 +96,7 @@ $FOS-Flint: #383d47 !default;
 $FOS-Flint-70: var(--fos-flint-70, rgba(56, 61, 71, 0.7)) !default;
 $FOS-Flint-35: var(--fos-flint-35, rgba(56, 61, 71, 0.35)) !default;
 
-$primary: $FOS-Aubergine !default;
+$primary: $FOS-Caribbean-Green !default;
 $secondary: $gray-400 !default;
 $success: $green !default;
 $info: $cyan !default;
@@ -203,10 +205,10 @@ $sizes: map-merge(
 //
 // Settings for the `<body>` element.
 
-$body-bg: $FOS-Aubergine-bk !default;
+$body-bg: $FOS-Caribbean-Green-bk !default;
 //$body-color: $gray-900 !default;
 
-$body-color: $FOS-Aubergine-bk !default;
+$body-color: $FOS-Caribbean-Green-bk !default;
 //$bg: $body-color;
 
 // Links
