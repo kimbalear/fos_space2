@@ -19,9 +19,6 @@ $THEME->sheets = array(
     'moodle',
 );
 
-$THEME->logo = '$@theme_directory@/pix/two.png';
-
-
 $THEME->haseditswitch = true;
 
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
