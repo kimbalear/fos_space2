@@ -243,17 +243,17 @@ body {
 }
 
 .navbar-brand .logo {
-  display: none;  // Esto oculta el logo actual
+  display: none!important;  // Esto oculta el logo actual
 }
 
 .navbar-brand::after {
   content: '';
-  display: block;
+  display: block!important;
   //http://foselearning.knowtechture.com
   //http://localhost
-  background-image: url('http://localhost/theme/ddmood1/pix/2.png')!important;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 44px;  // Ajusta al tamaño de tu logo
-  height: 31px; // Ajusta al tamaño de tu logo
+  background-image: url('theme/ddmood1/pix/two.png')!important;
+  background-size: contain!important;
+  background-repeat: no-repeat!important;
+  width: 44px!important;  // Ajusta al tamaño de tu logo
+  height: 31px!important; // Ajusta al tamaño de tu logo
 }
