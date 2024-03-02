@@ -19,6 +19,22 @@ $THEME->sheets = array(
     'moodle',
 );
 
+$THEME->layouts = [
+    // Main course page.
+    'course' => array(
+        'file' => 'drawers.php',
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
+        'options' => array('langmenu' => true),
+    ),
+    'coursecategory' => array(
+        'file' => 'coursecategory.php',
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
+    )
+    ];
+
 $THEME->haseditswitch = true;
 
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
+

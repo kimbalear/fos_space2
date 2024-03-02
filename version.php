@@ -11,7 +11,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'theme_ddmood1';
 $plugin->release = '0.1.0';
-$plugin->version = 2023061606;
+$plugin->version = 2023061607;
 $plugin->requires = 2022112800;
 $plugin->maturity = MATURITY_ALPHA;
 $plugin->dependencies = [
