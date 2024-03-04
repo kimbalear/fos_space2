@@ -1,0 +1,33 @@
+{{! Este es un archivo de plantilla Mustache para mostrar categorías de curso y sus cursos en Moodle }}
+{{> theme_boost/head }}
+<body {{{ bodyattributes }}}>
+    {{> core/local/toast/wrapper}}
+    <div id="page-wrapper" class="d-print-block">
+    {{{ output.standard_top_of_body_html }}}
+
+    {{> theme_boost/navbar }}
+
+    <div id="page" data-region="mainpage" data-usertour="scroller"class="drawers drag-container">
+        <div class="grid-category">
+            <div class="img_header">
+                <div class="grid-header_content">
+                    <div class="logos">
+                        <div class="logo"></div>
+                    </div>
+                    <div class="title">Lorem ipsum dor</div>
+                </div>
+            </div>
+            <div class="content-category">{{{contentcategory}}}</div>
+        </div>
+    </div>
+    {{> theme_boost/footer }}
+    {{{ output.standard_after_main_region_html }}}
+</div>
+</html>
+{{#js}}
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader', 'theme_boost/drawer'], function(Loader, Drawer) {
+Drawer.init();
+M.util.js_complete('theme_boost/loader');
+});
+{{/js}}
