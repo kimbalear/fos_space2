@@ -3,11 +3,13 @@
 @import "base/mixins";
 @import "base/variables";
 @import "base/typography";
+@import "base/images";
 
 @import "layouts/footer";
 @import "layouts/coursecategory";
 
 @import "components/navBar";
+@import "components/buttons";
 @import "components/table";
 
 @import "components/bootstrap/card";
@@ -17,6 +19,7 @@
 @import "components/moodle/blocks";
 @import "components/moodle/drawer.scss";
 @import "components/moodle/filemanager";
+
 
 //@import "components/moodle/search";
 
@@ -253,7 +256,7 @@ body {
   display: block!important;
   //http://foselearning.knowtechture.com
   //http://localhost
-  background-image: url('https://foselearning.knowtechture.com/moodle/theme/ddmood1/pix/two.png')!important;
+  background-image: url('https://foselearning.knowtechture.com/moodle/theme/fos_space2/pix/two.png')!important;
   background-size: contain!important;
   background-repeat: no-repeat!important;
   width: 44px!important;  // Ajusta al tamaño de tu logo
