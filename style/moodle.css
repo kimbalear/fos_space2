@@ -4567,7 +4567,7 @@ body #page-wrapper #page #region-main {
 .navbar-brand::after {
   content: "";
   display: block !important;
-  background-image: url("theme/ddmood1/pix/two.png") !important;
+  background-image: url("https://foselearning.knowtechture.com/moodle/theme/ddmood1/pix/two.png") !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   width: 44px !important;
