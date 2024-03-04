@@ -32,7 +32,7 @@ $THEME->layouts = [
         'regions' => array('side-pre'),
         'defaultregion' => 'side-pre',
     )
-    ];
+];
 
 $THEME->haseditswitch = true;
 
