@@ -4689,7 +4689,7 @@ body #page-wrapper #page #region-main {
 .navbar-brand::after {
   content: "";
   display: block !important;
-  background-image: url("../theme/fos_space2/pix/navbar-logo.png") !important;
+  background-image: url("fos_space2/pix/navbar-logo.png") !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   width: 44px !important;
