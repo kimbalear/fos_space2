@@ -244,6 +244,10 @@ h5 {
   visibility: hidden;
 }
 
+.course_category_tree {
+  display: none;
+}
+
 .custom_form {
   display: grid;
   grid-template-columns: 1fr;
