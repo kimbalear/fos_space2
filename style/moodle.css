@@ -5791,9 +5791,9 @@ a.ygtvspacer:hover {
   display: grid;
 }
 .boxaligncenter tbody {
-  color: #5c3873;
+  color: #60ad8f;
   font-size: 13px;
-  background-color: rgba(92, 56, 115, 0.1);
+  background-color: rgba(96, 173, 143, 0.1);
   padding-bottom: 16px;
 }
 .boxaligncenter tbody tr:first-child {
