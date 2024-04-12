@@ -216,6 +216,7 @@ body {
 
   #page-wrapper #page {
     background-color: $body-bg;
+    min-height: auto;
 
     #page-content {
       background-color: $body-bg;
@@ -226,9 +227,11 @@ body {
       padding         : 0 0.5rem 1.5rem !important;
       max-width       : 1320px !important;
       min-height: 86vh;
-
+      margin-bottom: 0;
+      margin-top: 0;
       .header-maxwidth {
         max-width: 100%;
+        margin-top: 1.5rem;
       }
 
     }

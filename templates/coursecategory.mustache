@@ -7,6 +7,8 @@
         {{> theme_boost/navbar }}
 
         <div id="page" data-region="mainpage" data-usertour="scroller" class="drawers drag-container">
+        
+            <div id="topofscroll" class="main-inner">
             <div class="grid-category">
                 <div class="img_header">
                     <div class="grid-header_content">
@@ -39,11 +41,12 @@
                     {{{contentcategory}}}
                 </div>
             </div>
+            </div>
         </div>
         {{{ output.standard_after_main_region_html }}}
+        {{> theme_boost/footer }}
     </div>
 </body>
-        {{> theme_boost/footer }}
 </html>
 {{#js}}
 M.util.js_pending('theme_boost/loader');
