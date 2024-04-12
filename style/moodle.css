@@ -5919,11 +5919,6 @@ a.ygtvspacer:hover {
 .drawer-toggles .drawer-left-toggle .btn:hover {
   padding-left: 20px;
 }
-.footer-popover {
-  max-width: 1281px !important;
-  margin: 0 auto !important;
-}
-
 .pw-custom {
   background-color: #fafffd !important;
 }
@@ -6105,6 +6100,7 @@ body #page-wrapper #page .main-inner {
   background-color: #fafffd;
   padding: 0 0.5rem 1.5rem !important;
   max-width: 1320px !important;
+  min-height: 86vh;
 }
 body #page-wrapper #page .main-inner .header-maxwidth {
   max-width: 100%;
@@ -6116,13 +6112,6 @@ body #page-wrapper #page div.grid-category {
 }
 body #page-wrapper #page #region-main {
   background-color: #fafffd;
-}
-
-footer#page-footer.footer-popover.bg-white {
-  max-width: 1320px !important;
-  width: 100%;
-  margin: 0 auto;
-  border-radius: 0.5rem;
 }
 
 .popover.footer .popover-body {
@@ -6167,11 +6156,6 @@ footer#page-footer.footer-popover.bg-white {
   background-repeat: no-repeat !important;
   width: 44px !important;
   height: 31px !important;
-}
-
-.main-inner {
-  padding: 0 0.5rem 1.5rem !important;
-  max-width: 1320px !important;
 }
 
 .dropdown a {
